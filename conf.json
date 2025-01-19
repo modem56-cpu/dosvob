@@ -1,0 +1,27 @@
+{
+    "do_token": "dop_v1_95927285ba3003621559a8137ecb6d7f75fe9f89df9cb3bec0d1d044cdc8ce2f",
+    "region": "nyc3",
+
+    "snapshot_retention": [
+        {
+            "name": "recent",
+            "last": 10,
+        },
+        {
+            "name": "daily",
+            "frequency": "1 day",
+            "duration": "1 week",
+        },
+        {
+            "name": "weekly",
+            "frequency": "1 week",
+            "duration": "1 month",
+        },
+        {
+            "name": "monthly",
+            "frequency": "1 month",
+            "duration": "1 year",
+        },
+    ],
+    
+    "healthchecks": "https://hc-ping.com/yabba-dabba-doo-leave-me-blank-for-nothing"
